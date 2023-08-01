@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+:root{
+    --background-color: #f1f5f9;
+    --main-ui-color: #cbd5e1;
+
+}
+body{
+    position: relative;
+    height:100vh;
+    background-color: var(--background-color);
+}
+.mainDisplay{
+    position:absolute;
+    left:40%;
+    top:50%;
+   background-color: var(--main-ui-color);
+   padding:20px;
+}
+#newSearch{
+    position:absolute;
+    top:5%;
+    right:5%;
+}
